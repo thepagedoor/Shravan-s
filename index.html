@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+        <!-----------------Change Name---------------->
+    <title>Shravan's</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Google Font: Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">
+        <a href="#home"><img src="images/logo.png" alt="Logo"></a>
+        <span class="store-name">Shravan's</span>
+    </div>
+    <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="menu-button" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- Cover Section -->
+<section id="home" class="cover">
+    <div class="cover-image">
+        <img id="coverImg1" src="images/cover1.png" alt="Cover Image">
+        <img id="coverImg2" src="images/cover2.png" alt="Cover Image">
+        <img id="coverImg3" src="images/wcover1.png" alt="Cover Image">
+        <img id="coverImg4" src="images/wcover2.png" alt="Cover Image">
+    </div>
+    <div class="cover-text">
+        <h1>Beauty <br>
+            Beyond <br>
+            Boundaries !</h1>
+        <p>Where style meets individuality—expert hairdressing for everyone. With years of excellence,
+             we redefine beauty through innovation, passion, and precision.</p>
+    </div>
+</section>
+
+
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <!-- MEN SECTION -->
+    <div class="service-category">Men</div>
+    <div class="service-row">
+        <div class="service-card">
+            <div class="image-container">
+                <img src="images/mhaircut.png" alt="Men’s Haircut">
+            </div>
+            <div class="svg-container">
+                <img src="svgs/scissors-svgrepo-com.svg" alt="Icon" class="service-icon">
+            </div>
+            <div class="card-content">
+                <h3>Hair Care</h3>
+                <p>Get a sharp, stylish cut that suits your personality. 
+                    Elevate your look with expert precision.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="image-container">
+                <img src="images/mfacial.png" alt="Beard Trim">
+            </div>
+            <div class="svg-container">
+                <img src="svgs/lotion-fashion-svgrepo-com.svg" alt="Icon" class="service-icon">
+            </div>
+            <div class="card-content">
+                <h3>Face Care</h3>
+                <p>Rejuvenate your skin with deep cleansing and hydration. 
+                    Glow with confidence every day.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="image-container">
+                <img src="images/mmassage.png" alt="Facial Treatment">
+            </div>
+            <div class="svg-container">
+                <img src="svgs/man-getting-massage-light-skin-tone-svgrepo-com.svg" alt="Icon" class="service-icon">
+            </div>
+            <div class="card-content">
+                <h3>Body Care</h3>
+                <p>Relax and recharge with therapeutic massages. Experience full-body revitalization.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="image-container">
+                <img src="images/mwedding.png" alt="Hair Coloring">
+            </div>
+            <div class="svg-container">
+                <img src="svgs/brush-makeup-svgrepo-com.svg" alt="Icon" class="service-icon">
+            </div>
+            <div class="card-content">
+                <h3>Grooming</h3>
+                <p>Define your style with perfect beard trims and styling. Stay polished, stay sharp.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- WOMEN SECTION -->
+<div class="service-category">Women</div>
+<div class="service-row">
+    <div class="service-card">
+        <div class="image-container">
+            <img src="images/whaircut.png" alt="Women’s Haircut">
+        </div>
+        <div class="svg-container">
+            <img src="svgs/scissors-svgrepo-com.svg" alt="Icon" class="service-icon">
+        </div>
+        <div class="card-content">
+            <h3>Hair Care</h3>
+            <p> From chic cuts to trendy styles, transform your hair effortlessly. 
+                Let your hair make a statement.</p>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="image-container">
+            <img src="images/wfacial.png" alt="Makeup">
+        </div>
+        <div class="svg-container">
+            <img src="svgs/lotion-fashion-svgrepo-com.svg" alt="Icon" class="service-icon">
+        </div>
+        <div class="card-content">
+            <h3>Face Care</h3>
+            <p> Reveal radiant skin with nourishing facials and treatments. 
+                Because glowing skin is always in.</p>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="image-container">
+            <img src="images/wmassage.png" alt="Nail Art">
+        </div>
+        <div class="svg-container">
+            <img src="svgs/man-getting-massage-light-skin-tone-svgrepo-com.svg" alt="Icon" class="service-icon">
+        </div>
+        <div class="card-content">
+            <h3>Body Care</h3>
+            <p>Pamper yourself with body scrubs and soothing massages. Feel refreshed from head to toe.</p>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="image-container">
+            <img src="images/wwedding.png" alt="Hair Styling">
+        </div>
+        <div class="svg-container">
+            <img src="svgs/brush-makeup-svgrepo-com.svg" alt="Icon" class="service-icon">
+        </div>
+        <div class="card-content">
+            <h3>Makeup</h3>
+            <p>Enhance your beauty with flawless makeup artistry. Perfect for every occasion, big or small.</p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+<!-- About Us Section -->
+<section id="about" class="about">
+    <div class="about-image">
+                      
+        <img src="Shravan's.jpg" alt="About Us">
+        
+    </div>
+    <div class="about-text">
+      
+
+        <h3>Shravan's</h3>
+        <h4>West Marredpally, Secunderabad</h4>
+        <h2>About Us</h2>
+        <p>At Shravan's, we believe beauty knows no boundaries. 
+            With a passion for excellence and a commitment to innovation, 
+            we provide top-tier grooming, skincare, and styling services for men and women.
+             Our expert stylists and beauty professionals ensure every client experiences luxury,
+              confidence, and self-expression. Whether you're looking for a trendy haircut, 
+              rejuvenating skincare, or a glamorous makeover, we’re here to make you look and feel your best. 
+              Step into our salon and let us redefine your style with precision, creativity, and care.
+<br><br>
+            ✨ Your beauty, our expertise. ✂💄</p>
+    </div>
+</section>
+
+<!-- Client Reviews Section -->
+<section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    
+    <div class="testimonial-container">
+        <div class="testimonial-slider">
+            <div class="testimonial-card">
+                <h3>Rahul Sharma</h3>
+                <div class="stars">★★★★★</div>
+                <p>"Absolutely love this place! The staff is incredibly skilled, and the ambiance is top-notch. I got a haircut and facial, and the results were fantastic. Highly recommended!"</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Pooja Mehta</h3>
+                <div class="stars">★★★★★</div>
+                <p>"From hairstyling to skincare, everything here is done with such precision and care. The team is friendly, and they genuinely listen to your needs. This is my go-to salon!"</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Amit Verma</h3>
+                <div class="stars">★★★★★</div>
+                <p>"Exceptional service! They truly understand hair types and styles. The grooming session was relaxing, and my beard trim was done perfectly. A must-visit for self-care!"</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Neha Kapoor</h3>
+                <div class="stars">★★★★★</div>
+                <p>"I visited for a pre-wedding makeover, and I couldn't be happier. My makeup and hairdo were stunning. The team ensures perfection, making you feel special. Thank you!"</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Vikram Iyer</h3>
+                <div class="stars">★★★★★</div>
+                <p>"One of the best salons I have ever visited! The attention to detail is amazing, and the hygiene standards are well-maintained. I left feeling refreshed and confident."</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Ananya Reddy</h3>
+                <div class="stars">★★★★★</div>
+                <p>"The best salon experience! The hair coloring and spa treatment were fantastic. My hair feels healthier than ever, and the color is exactly how I imagined. Loved it!"</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Arjun Singh</h3>
+                <div class="stars">★★★★★</div>
+                <p>"I'm impressed by the professionalism and expertise of the team. They recommended the perfect haircut and skincare routine for me. I'm definitely coming back!"</p>
+            </div>
+            <div class="testimonial-card">
+                <h3>Shreya Patel</h3>
+                <div class="stars">★★★★★</div>
+                <p>"The salon has a warm and welcoming vibe. The staff is knowledgeable and friendly. I got a haircut and facial, and both were exceptional. I'm a happy customer!"</p>
+                </div>
+
+            <div class="testimonial-card">
+                <h3>Aditya Singh</h3>
+                <div class="stars">★★★★★</div>
+                <p>"I had a great experience at this salon. The haircut was exactly what I wanted, and the skincare treatment was relaxing. I highly recommend this place!"</p>
+                </div>  
+
+            <div class="testimonial-card">
+                <h3>Shivani Mehta</h3>
+                <div class="stars">★★★★★</div>
+                <p>"The salon is clean, and the staff is professional. I got a haircut and facial, and both were done perfectly. I'm happy with the results. Will be back soon!"</p>
+                </div>  
+
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Dots for navigation -->
+    <div class="dots-container">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+        <span class="dot" onclick="goToSlide(3)"></span>
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="contact-container">
+        
+        <!-- Left Side: Contact Info Card -->
+        <div class="contact-card">
+            <h3>Opening Hours</h3>                                      <!-- Change Timings -->
+            <p>All Days: 8:00 AM - 10:00 PM</p>
+             
+            <h3>Location</h3>                                            <!-- Change Address and Add the Location Link-->
+            <p><a href="https://maps.app.goo.gl/mcpJLpqjH5kivst6A" target="_blank" style="color: white;">D.No.3-9-242, W Marredpally Rd, above Lakshmi<br>Vilas Bank, Siva Arun Colony, West<br>Marredpally, Secunderabad, Telangana 500026</a></p>
+            
+            <h3>Call or WhatsApp</h3>                                     
+            <p>📞 <a href="tel:+919676112324" style="color: white;">+919676112324</a></p> <!-- Change Number-->
+        </div>
+
+<!-- Right Side: Booking Form -->
+<div class="contact-form">
+    <h2>Book Appointment</h2>
+    <div class="line"></div>
+    <span class="subtext">Ready to transform yourself?</span>
+    
+    <form id="whatsappForm">
+        <div class="form-grid">
+            <input type="text"  id="name" placeholder="Full Name" required>
+            <div class="gender-container">
+            <select id="gender" required >
+                <option value="" disabled selected >Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select> </div>
+            
+            <select id="service" required >
+                <option value="" disabled selected>Service</option>
+                <option value="Haircut">Haircut</option>
+                <option value="Skin Care">Skin Care</option>
+                <option value="Body Care">Body Care</option>
+                <option value="Makeup">Makeup</option>
+            </select>
+    
+              <input type="date" id="appointmentDate" required> 
+        </div>
+    
+        <div class="time-selection" >
+            <label>Select Time:</label>
+            <select id="appointmentTime" required> >
+                <option value="" disabled selected>Select Time</option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="Night">Night</option>
+            </select>
+        </div>
+    
+        <button type="button" onclick="sendWhatsApp()">Submit</button>
+    </form>
+    
+</div>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <p class="thank-you">Thank You for Visiting</p>
+        <p>for website Contact us</p>
+        <div class="footer-right">
+            <a href="https://p-d.site" target="_blank" class="company-name">ThePageDoor</a>
+            <p class="phone-number">  <a href="tel:+916302941811"  style="color:red;">  📞 +91 6302941811 </a></p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
